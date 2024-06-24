@@ -1,0 +1,68 @@
+@font-face {
+    font-family: bebas;
+    src: url(BebasNeue-Regular.ttf);
+}
+
+body{
+    font-family: bebas;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#output{
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 600px;
+    width: 800px;
+    background-color: lightcyan;
+    text-align: center;
+    font-size: 50px;
+}
+#placeAdd{
+    border: 2px solid black;
+}
+#buttons{
+    position: relative;top: 60px;
+    position: relative;right:200px;
+}
+#button{
+border-radius: 10px;
+width: 120px;
+background-color: white;
+color: black;
+border:3px solid black;
+}
+#button:hover{
+    transition: .7s;
+    border-radius: 50px;
+    width: 120px;
+    background-color: plum;
+    color: black;
+    border:3px solid black;
+    }
+
+#ONE,#TWO{
+    border-radius: 5px;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+}
+#solve{
+    background-color: lightblue;
+    border-radius: 5px;
+    border-color: black;
+}
+  #solve:hover{
+        background-color: plum;
+        border-radius: 5px;
+        border-color: black;
+}
+#LAST{
+    font-size: 25px;
+}
+#LAST1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding-left: 2px;
+}
