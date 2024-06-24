@@ -17,7 +17,7 @@ function showAddInput(){
   3. Once verified send us a request of your order 10% off<br>
   4. Wait for us to accept and enjoy!
   </div>
-  <button id="insta" onclick="window.location.href='https://google.com';">Click here to follow our instagram</button>
+  <button id="insta" onclick="window.location.href='https://www.instagram.com/closettransfer_/';">Click here to follow our instagram</button>
  `
 }
 
